@@ -1,0 +1,18 @@
+.list {
+  width: 1000px;
+  margin: 0 auto;
+
+  li {
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 0 1rem;
+    color: #333;
+
+    & + li {
+      margin-top: .5rem;
+    }
+  }
+
+}

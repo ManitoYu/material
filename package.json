@@ -1,0 +1,31 @@
+{
+  "name": "material",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.10.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-inject": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "coffee-reactify": "^4.0.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-load-plugins": "^1.1.0",
+    "jquery": "^2.1.4",
+    "lodash": "^3.10.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "gulp-clean": "^0.3.1",
+    "gulp-rev": "^6.0.1",
+    "http-proxy-middleware": "^0.9.0",
+    "wrench": "^1.5.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Onionkings",
+  "license": "MIT"
+}
