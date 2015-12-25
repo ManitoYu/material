@@ -1,6 +1,7 @@
 .list {
   width: 1000px;
   margin: 0 auto;
+  max-width: 100%;
 
   li {
     height: 60px;
@@ -9,6 +10,18 @@
     border-radius: 2px;
     padding: 0 1rem;
     color: #333;
+    overflow: hidden;
+
+    p:nth-child(1) {
+      float: left;
+    }
+    p:nth-child(2) {
+      float: right;
+
+      a {
+        color: #aaa;
+      }
+    }
 
     & + li {
       margin-top: .5rem;

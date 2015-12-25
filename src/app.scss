@@ -14,5 +14,14 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#pageContent {
+  margin: 0 1rem;
+}
+
 // injector
 // endinjector
