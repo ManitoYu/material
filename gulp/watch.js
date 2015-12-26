@@ -19,7 +19,7 @@ gulp.task('watch', ['inject'], function () {
 
   // js
   gulp.watch([
-    path.join(conf.paths.src, '**', '*.cjsx')
+    path.join(conf.paths.src, '**', '*.{cjsx,coffee}')
   ], function (event) {
     gulp.start(event.type == 'changed' ? 'scripts-reload' : 'inject-reload');
   });

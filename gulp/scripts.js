@@ -18,8 +18,8 @@ function buildScripts() {
   return gulp.src(path.join(conf.paths.src, '/app.cjsx'), { read: false })
     .pipe($.browserify({
       transform: ['coffee-reactify'],
-      extensions: ['.cjsx']
-    }))
+      extensions: ['.cjsx', '.coffee']
+    }).on('error', console.error))
     .pipe($.rename('app.js'))
     .pipe(gulp.dest(path.join(conf.paths.tmp)));
 }
