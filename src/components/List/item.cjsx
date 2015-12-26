@@ -11,5 +11,4 @@ Item = React.createClass
       </p>
     </li>
 
-
 module.exports = Item
